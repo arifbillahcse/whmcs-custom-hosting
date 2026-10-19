@@ -1,0 +1,15 @@
+{
+    "name": "arifbillahcse/whmcs-thirdpartyservices",
+    "description": "WHMCS provisioning module for reselling third-party hosting (development tests only)",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "illuminate/database": "^10.0"
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
